@@ -1,0 +1,82 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(238, 211, 215);
+}
+
+.container{
+    margin: 0px;
+    padding: 0 0px;
+   
+}
+
+
+.informacao h2{
+    font-size: 15px;
+    font-family: 'Montserrat';
+    letter-spacing: 7px;
+    margin: 30px;
+}
+
+.informacao .price{
+    display: flex;
+    align-items: center;
+
+}
+
+.informacao .price .price2{
+    font-size: 70px;
+    display: flex;
+    color: green;
+    font-family: 'fraunces';
+    margin-left: 30px;
+}
+
+.informacao .nn{
+    font-size: 31px;
+    font-family: 'Montserrat';
+    margin: 30px;
+}
+
+.card{
+    display: grid;
+    max-width: 1000px;
+    background-color:#ffffff;
+    grid-template-columns: 3fr 3fr;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card.informacao{
+padding: 10px;
+margin: 10px;
+}
+
+.informacao .nome{
+    font-size: 64px;
+    font-family: 'fraunces';
+    margin: 30px;
+    font-weight: 700;
+  
+}
+
+.add{
+    background-color: #5bc241;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 30px;
+    margin-left: 40px;
+    padding: 20px 150px;
+    border:#5bc241
+}
